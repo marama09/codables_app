@@ -3,5 +3,5 @@
 A new Flutter application.
 
 ## Author
-If you like my work, please consider supporting me with your kind contribution. Thank you!!!
-maram.alfaifi@hotmail.com
+Please feel free to let me know if you have any questions. Email: maram.alfaifi@hotmail.com <br>
+Thank you!!!
