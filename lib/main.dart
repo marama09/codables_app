@@ -63,7 +63,7 @@ class _MysigninState extends State<Mysignin> {
               height: MediaQuery.of(context).size.height * 0.4,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage('asset/images/IMG-20211225-WA0043.jpg'),
+                      image: AssetImage('asset/images/logo.jpg'),
                       fit: BoxFit.contain)),
             ),
             Expanded(
@@ -75,7 +75,7 @@ class _MysigninState extends State<Mysignin> {
                   //   style: TextStyle(fontSize: 12, fontFamily: 'circe'),
                   // ),
                   Text(
-                    "Hey! Welcome",
+                    "أهلا بك",
                     style: TextStyle(
                         color: Color(0xff6982FC),
                         fontSize: 26,
@@ -83,8 +83,10 @@ class _MysigninState extends State<Mysignin> {
                         fontFamily: 'circe'),
                     textAlign: TextAlign.center,
                   ),
+                
+                
                   Text(
-                    "Are you ready to start your educational journey?",
+                    "هل أنت مستعد لبدءرحلتك التعليمية",
                     style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w300,

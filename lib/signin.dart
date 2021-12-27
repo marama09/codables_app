@@ -63,23 +63,19 @@ class _HomePageState extends State<HomePage> {
                       //   "WHERE KIDS LOVE LEARNING",
                       //   style: TextStyle(fontSize: 12, fontFamily: 'circe'),
                       // ),
-                      Text(
-                        "Hey! Welcome",
-                        style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 26,
-                            fontWeight: FontWeight.w700,
-                            fontFamily: 'circe'),
-                        textAlign: TextAlign.center,
-                      ),
-                      Text(
-                        "We offer lessons on cybersecurity and programming /n directly from models near you.",
-                        style: TextStyle(
-                            fontSize: 15,
-                            fontWeight: FontWeight.w300,
-                            fontFamily: 'circe'),
-                        textAlign: TextAlign.center,
-                      ),
+                    
+                      Padding(padding: EdgeInsets.symmetric(vertical: 10,horizontal: 30),
+                  child: TextFormField(decoration: InputDecoration(
+                    suffixIcon: Icon(Icons.email, color:Colors.grey[400]),
+                    hintText: 'البريد الالكتروني',
+                   
+                  ),),),
+                         Padding(padding: EdgeInsets.symmetric(vertical: 10,horizontal: 30),
+                  child: TextFormField(decoration: InputDecoration(
+                    suffixIcon: Icon(Icons.lock, color:Colors.grey[400]),
+                    hintText: 'رمز الدخول',
+                   
+                  ),),),
                       Center(
                         child: Container(
                           // decoration: BoxDecoration(
@@ -96,7 +92,7 @@ class _HomePageState extends State<HomePage> {
                                 borderRadius: BorderRadius.circular(25),
                                 child: MaterialButton(
                                   onPressed:openHomePage,
-                                  child: Text('Get Started'),
+                                  child: Text('تسجيل الدخ'),
                                 ),
                               ),
 
