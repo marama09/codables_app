@@ -1,4 +1,4 @@
-# # kids education App Programming
+# kids education App Programming
 
 A new Flutter application.
 
